@@ -353,7 +353,7 @@ class main_widget(QWidget):
                     f"{temppath}/{self.rinfo['relid']}/audio_{tracknum:02d}.wav"]
             subprocess.run(flac,stdout=sys.stdout,stderr=sys.stderr)
             tracknum += 1
-        os.chdir('/home/blake/.local/tmp')
+        os.chdir(home)
         shutil.rmtree(temppath)
         print("Done.")
         self.statbar.showMessage("Done.")
