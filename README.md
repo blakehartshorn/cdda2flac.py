@@ -15,6 +15,7 @@ Similarly, the prequisites are as follows:
 * PyQt 5+ (probably easily backportable to PyQt4, nothing spectactular was used.)
 * [musicbrainzngs](http://python-musicbrainzngs.readthedocs.io/en/v0.6/) 0.6
 * [discid](https://pypi.python.org/pypi/discid)
+* [requests](http://docs.python-requests.org/en/master/)
 * [cdrtools](http://cdrtools.sourceforge.net/private/cdrecord.html) 3.0+ (NOT cdrkit/icedav/cdparanoia)
 * [flac](http://www.xiph.org/flac/)
 
